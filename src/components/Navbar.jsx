@@ -73,7 +73,7 @@ export default function Navbar({ onOpenQuote, theme, onToggleTheme }) {
       {/* Right-side controls */}
       <div className="flex items-center gap-3">
         {/* Theme Toggle */}
-        {/* <button
+        <button
           type="button"
           className="theme-toggle"
           onClick={onToggleTheme}
@@ -86,7 +86,7 @@ export default function Navbar({ onOpenQuote, theme, onToggleTheme }) {
           <span className="theme-toggle-label">
             {theme === "dark" ? "Light" : "Dark"}
           </span>
-        </button> */}
+        </button> 
 
         {/* Quote Modal Trigger */}
         <button
